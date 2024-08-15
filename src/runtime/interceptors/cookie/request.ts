@@ -48,6 +48,7 @@ async function initCsrfCookie(
     await $fetch(config.endpoints.csrf, {
         baseURL: config.baseUrl,
         credentials: 'include',
+        method: 'HEAD'
     });
 
     logger.debug('CSRF cookie has been initialized');
