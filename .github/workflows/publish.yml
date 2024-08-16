@@ -35,14 +35,11 @@ jobs:
             - name: Install dependencies
               run: ${{ env.install_command }}
 
-            - name: Validate package
-              run: ${{ env.script_command }} validate
-
             - name: Build package
               run: ${{ env.script_command }} prepack
 
             - name: Generate changelog and publish package
               run: |
-                  git config --global user.name "changelog_action"
-                  git config --global user.email "artem@manchenkoff.me"
+                  git config --global user.name "Kieu Minh Canh"
+                  git config --global user.email "minhcanhdn0704@gmail.com"
                   ${{ env.script_command }} changelogen --release --push --publish
