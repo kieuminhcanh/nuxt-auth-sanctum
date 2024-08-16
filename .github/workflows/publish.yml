@@ -5,7 +5,7 @@ env:
     package_manager: yarn # or npm
     install_command: yarn install # or npm ci
     script_command: yarn # or npm run
-    NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+    NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
     NODE_REGISTRY: 'https://registry.npmjs.org' # setup credentials
     GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}} # pass token to generate sync release via changelogen
 
