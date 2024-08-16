@@ -3,9 +3,9 @@ name: Nuxt 3 [Validate]
 
 env:
     node_version: 20.x
-    package_manager: npm # or npm
-    install_command: npm ci # or npm ci
-    script_command: npm run # or npm run
+    package_manager: yarn # or npm
+    install_command: yarn install # or npm ci
+    script_command: yarn # or npm run
 
 on:
     workflow_dispatch: # manual trigger
