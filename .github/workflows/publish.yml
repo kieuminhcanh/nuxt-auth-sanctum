@@ -39,7 +39,7 @@ jobs:
               run: ${{ env.script_command }} validate
 
             - name: Nuxi prepare
-              run: ${{ env.script_command }} nuxi prepare
+              run: ${{ env.script_command }} nuxt prepare
 
             - name: Build package
               run: ${{ env.script_command }} prepack
