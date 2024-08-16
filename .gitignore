@@ -3,6 +3,7 @@ node_modules
 
 # Logs
 *.log*
+*.lock
 
 # Temp directories
 .temp
