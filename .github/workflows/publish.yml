@@ -42,8 +42,5 @@ jobs:
             - name: Build package
               run: ${{ env.script_command }} prepack
 
-            - name: Generate changelog and publish package
-              run: |
-                  git config --global user.name "changelog_action"
-                  git config --global user.email "minhcanhdn0704@gmail.com"
-                  ${{ env.script_command }} changelogen --release --push --publish
+            - name: publish package
+              run: npm publish                  
