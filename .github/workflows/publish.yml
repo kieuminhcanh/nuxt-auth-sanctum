@@ -35,8 +35,9 @@ jobs:
             - name: Install dependencies
               run: ${{ env.install_command }}
 
-            - name: Validate package
-              run: ${{ env.script_command }} validate
+            - name: Run TypeCheck
+              run: |
+                  ${{ env.script_command }} nuxi prepare
 
             - name: Build package
               run: ${{ env.script_command }} prepack
