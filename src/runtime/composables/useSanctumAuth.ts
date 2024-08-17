@@ -111,7 +111,7 @@ export const useSanctumAuth = <T>(): SanctumAuth<T> => {
         const currentRoute = useRoute();
         const currentPath = trimTrailingSlash(currentRoute.path);
 
-        await client(options.endpoints.logout, { method: 'get' });
+        await client(options.endpoints.logout, { method: 'get', redirect: 'manual' });
 
         user.value = null;
 
