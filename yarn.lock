@@ -7425,7 +7425,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-auth-saturn@workspace:.":
+"nuxt-auth-saturn@npm:^0.1.0, nuxt-auth-saturn@workspace:.":
   version: 0.0.0-use.local
   resolution: "nuxt-auth-saturn@workspace:."
   dependencies:
@@ -7445,6 +7445,7 @@ __metadata:
     nitropack: "npm:^2.9.6"
     nuxi: "npm:^3.10.0"
     nuxt: "npm:^3.12.4"
+    nuxt-auth-saturn: "npm:^0.1.0"
     prettier: "npm:^3.0.3"
     typescript: "npm:^5.4.5"
     vite: "npm:^4.4.9"
