@@ -1,6 +1,6 @@
 {
   "name": "nuxt-auth-saturn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Kieu Minh Canh",
   "description": "Nuxt module for Saturn authentication",
   "homepage": "https://manchenkoff.gitbook.io/nuxt-auth-sanctum/",
@@ -53,7 +53,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "h3": "^1.10.1",
-    "nitropack": "^2.9.6",    
+    "nitropack": "^2.9.6",
     "nuxt": "^3.12.4",
     "prettier": "^3.0.3",
     "typescript": "^5.4.5",
