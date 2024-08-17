@@ -1,6 +1,6 @@
 {
   "name": "nuxt-auth-saturn",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Kieu Minh Canh",
   "description": "Nuxt module for Saturn authentication",
   "homepage": "https://manchenkoff.gitbook.io/nuxt-auth-sanctum/",
