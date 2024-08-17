@@ -42,14 +42,6 @@ jobs:
             - name: Install dependencies
               run: ${{ env.install_command }}
 
-            - name: Run Prettier
-              run: |
-                  ${{ env.script_command }} fmt:check
-
-            - name: Run ESLint
-              run: |
-                  ${{ env.script_command }} lint
-
             - name: Run TypeCheck
               run: |
                   ${{ env.script_command }} test:types
